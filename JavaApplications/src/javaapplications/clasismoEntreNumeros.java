@@ -1,0 +1,18 @@
+/*
+ * Nombre : Melchor Ruiz Gonzalez
+ * Grupo : DSM102
+ * Descripción : Este programa pide un numero hasta que el numero sea neganivo
+ */
+package javaapplications;
+import java.util.Scanner;
+public class clasismoEntreNumeros {
+    public static void main(String[] args) {
+        Scanner read = new Scanner (System.in);
+        int num = 0;
+        while (num >= 0){
+            System.out.println("¿Puedes decirme un número?");
+            num = read.nextInt();
+        }
+        System.out.println("Este número es negativo");
+    }
+}
